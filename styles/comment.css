@@ -1,0 +1,41 @@
+.comment_banner{
+  height: 350px!important;
+  width: 100%;
+  object-fit: cover;
+}
+.back_to_team{
+  border: 1px solid var(--theme-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #666;
+  font-weight: 600;
+  transition: all linear 0.3s;
+}
+.back_to_team:hover{
+  color: #fff;
+  background-color: var(--theme-color);
+  
+}
+.comment_details .title{
+  text-align: center;
+  font-size: 40px;
+}
+.comment_details .img-class{
+	position: relative;
+	overflow: hidden ;
+	height: 300px;
+	min-width: 250px;
+	object-fit: cover;
+	float: left;
+  border: 2px solid var(--theme-color);
+  border-radius: 10px;
+	/* shape-outside: circle(); */
+	/* border-radius: 50%; */
+	margin-right: 40px;
+	margin-bottom: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.comment_details .align-item{
+	text-align: justify;
+  font-size: 20px;
+}

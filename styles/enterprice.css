@@ -1,0 +1,9 @@
+.enterprice_part{
+  margin-left: 25%;
+   /*transform: translate(-50%); */
+}
+.enterprice_logo{
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 130px;
+}
